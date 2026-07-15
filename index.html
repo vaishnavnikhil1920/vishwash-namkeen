@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Vishwash Namkeen</title>
+<title>Vishwash Namkeen | Pure Taste, True Trust</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
@@ -20,31 +22,29 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
 
 <header>
 
-<nav>
+<nav class="navbar">
 
 <div class="logo">
 
-<img src="logo.png">
-
-<h2>Vishwash Namkeen</h2>
+<img src="logo.png" alt="Vishwash Namkeen Logo">
 
 </div>
 
-<ul>
+<ul class="nav-links">
 
 <li><a href="#">Home</a></li>
 
-<li><a href="#about">About</a></li>
-
 <li><a href="#products">Products</a></li>
 
-<li><a href="#gallery">Gallery</a></li>
+<li><a href="#about">About</a></li>
+
+<li><a href="#reviews">Reviews</a></li>
 
 <li><a href="#contact">Contact</a></li>
 
 </ul>
 
-<a href="https://wa.me/918460183525" class="order">
+<a href="https://wa.me/918460183535" class="order-btn">
 
 Order Now
 
@@ -56,25 +56,28 @@ Order Now
 
 <section class="hero">
 
-<div class="left">
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h4>Premium & Crunchy</h4>
 
 <h1>
 
-India's Favourite
+Taste That Builds
 
-Premium Namkeen
+<span>Trust</span>
 
 </h1>
 
 <p>
 
-Fresh • Crispy • Hygienic
-
-Made with Love & Quality
+Experience authentic Indian namkeen made with quality ingredients,
+traditional recipes and unforgettable flavour.
 
 </p>
 
-<div class="buttons">
+<div class="hero-buttons">
 
 <a href="#products" class="btn1">
 
@@ -82,9 +85,13 @@ Explore Products
 
 </a>
 
-<a href="https://wa.me/918460183525" class="btn2">
+<a href="https://wa.me/918460183535"
 
-WhatsApp Order
+class="btn2">
+
+<i class="fab fa-whatsapp"></i>
+
+Order on WhatsApp
 
 </a>
 
@@ -92,89 +99,39 @@ WhatsApp Order
 
 </div>
 
-<div class="right">
-
-<img src="hero.png">
-
-</div>
-
 </section>
 
-<section class="brands">
+<section class="features">
 
-<div>
+<div class="feature-box">
 
-<h2>100%</h2>
-
-<p>Fresh Products</p>
-
-</div>
-
-<div>
-
-<h2>5000+</h2>
-
-<p>Happy Customers</p>
-
-</div>
-
-<div>
-
-<h2>10+</h2>
-
-<p>Products</p>
-
-</div>
-
-<div>
-
-<h2>★★★★★</h2>
-
-<p>Customer Rating</p>
-
-</div>
-
-</section>
-
-<section id="about">
-
-<h1>
-
-Why Choose Us
-
-</h1>
-
-<div class="features">
-
-<div class="box">
-
-<i class="fa-solid fa-award"></i>
+<i class="fa-solid fa-medal"></i>
 
 <h3>Premium Quality</h3>
 
 <p>
 
-Best Ingredients
+Made using selected ingredients for unmatched taste.
 
 </p>
 
 </div>
 
-<div class="box">
+<div class="feature-box">
 
-<i class="fa-solid fa-leaf"></i>
+<i class="fa-solid fa-seedling"></i>
 
 <h3>Fresh Everyday</h3>
 
 <p>
 
-Always Fresh
+Prepared with freshness and hygiene.
 
 </p>
 
 </div>
 
-<div class="box">
+<div class="feature-box">
 
 <i class="fa-solid fa-truck-fast"></i>
 
@@ -182,23 +139,138 @@ Always Fresh
 
 <p>
 
-Quick Service
+Quick order processing through WhatsApp.
 
 </p>
 
 </div>
 
-<div class="box">
+<div class="feature-box">
 
-<i class="fa-solid fa-shield"></i>
+<i class="fa-solid fa-heart"></i>
 
 <h3>Trusted Brand</h3>
 
 <p>
 
-Pure Taste
+Loved by customers for taste and quality.
 
 </p>
+
+</div>
+
+</section>
+<!-- PRODUCTS SECTION -->
+
+<section class="products" id="products">
+
+<div class="section-title">
+
+<h5>Our Collection</h5>
+
+<h2>Premium Namkeen Range</h2>
+
+<p>
+Crafted with authentic recipes, premium ingredients and unforgettable taste.
+</p>
+
+</div>
+
+<div class="product-grid">
+
+<div class="product-card">
+
+<div class="product-image">
+
+<img src="images/bhujia.jpg" alt="Bhujia">
+
+</div>
+
+<div class="product-content">
+
+<h3>Classic Bhujia</h3>
+
+<p>Crispy, spicy and perfectly balanced flavour.</p>
+
+<a href="https://wa.me/918460183535?text=I%20want%20to%20order%20Classic%20Bhujia" class="product-btn">
+
+Order Now
+
+</a>
+
+</div>
+
+</div>
+
+<div class="product-card">
+
+<div class="product-image">
+
+<img src="images/sev.jpg" alt="Sev">
+
+</div>
+
+<div class="product-content">
+
+<h3>Ratlami Sev</h3>
+
+<p>Traditional taste with rich authentic spices.</p>
+
+<a href="https://wa.me/918460183535?text=I%20want%20to%20order%20Ratlami%20Sev" class="product-btn">
+
+Order Now
+
+</a>
+
+</div>
+
+</div>
+
+<div class="product-card">
+
+<div class="product-image">
+
+<img src="images/mixture.jpg" alt="Mixture">
+
+</div>
+
+<div class="product-content">
+
+<h3>Special Mixture</h3>
+
+<p>Crunchy mix loaded with premium ingredients.</p>
+
+<a href="https://wa.me/918460183535?text=I%20want%20to%20order%20Special%20Mixture" class="product-btn">
+
+Order Now
+
+</a>
+
+</div>
+
+</div>
+
+<div class="product-card">
+
+<div class="product-image">
+
+<img src="images/chana.jpg" alt="Chana">
+
+</div>
+
+<div class="product-content">
+
+<h3>Roasted Chana</h3>
+
+<p>Healthy, crunchy and full of protein.</p>
+
+<a href="https://wa.me/918460183535?text=I%20want%20to%20order%20Roasted%20Chana" class="product-btn">
+
+Order Now
+
+</a>
+
+</div>
 
 </div>
 
@@ -206,23 +278,132 @@ Pure Taste
 
 </section>
 
-<footer>
+<!-- ABOUT SECTION -->
 
-<h2>
+<section class="about" id="about">
 
-Vishwash Namkeen
+<div class="about-left">
 
-</h2>
+<img src="logo.png" alt="Vishwash Namkeen">
+
+</div>
+
+<div class="about-right">
+
+<h5>About Us</h5>
+
+<h2>Pure Taste, True Trust</h2>
 
 <p>
 
-Pure Taste • True Trust
+At Vishwash Namkeen, we prepare every product using premium ingredients,
+traditional recipes and strict quality standards. Every bite reflects
+our commitment to freshness, hygiene and authentic
+  <!-- REVIEWS SECTION -->
+
+<section class="reviews" id="reviews">
+
+<div class="section-title">
+<h5>Customer Reviews</h5>
+<h2>What Our Customers Say</h2>
+</div>
+
+<div class="review-container">
+
+<div class="review-card">
+★★★★★
+<p>
+"Crispy, fresh and delicious. Best namkeen I've tasted!"
+</p>
+<h4>- Rahul Patel</h4>
+</div>
+
+<div class="review-card">
+★★★★★
+<p>
+"Premium quality with authentic Indian flavour."
+</p>
+<h4>- Neha Shah</h4>
+</div>
+
+<div class="review-card">
+★★★★★
+<p>
+"Fast delivery and amazing taste. Highly recommended!"
+</p>
+<h4>- Amit Kumar</h4>
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT SECTION -->
+
+<section class="contact" id="contact">
+
+<div class="section-title">
+<h5>Contact Us</h5>
+<h2>Order Directly on WhatsApp</h2>
+</div>
+
+<div class="contact-box">
+
+<h3>Vishwash Namkeen</h3>
+
+<p>
+Premium & Crunchy Namkeen
+</p>
+
+<p>
+📱 WhatsApp : +91 8460183535
+</p>
+
+<a href="https://wa.me/918460183535"
+class="contact-btn">
+
+Order on WhatsApp
+
+</a>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<img src="logo.png" class="footer-logo">
+
+<h2>Vishwash Namkeen</h2>
+
+<p>
+Pure Taste, True Trust
+</p>
+
+<p>
+
+© 2026 Vishwash Namkeen.
+
+All Rights Reserved.
 
 </p>
 
 </footer>
 
+<!-- Floating WhatsApp -->
+
+<a href="https://wa.me/918460183535"
+
+class="floating-whatsapp">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
 <script src="script.js"></script>
 
 </body>
+
 </html>
