@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#fff8e7;
+}
+
+header{
+    background:#c62828;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+h2{
+    color:#c62828;
+}
+
+ul{
+    list-style:square;
+}
+
+a{
+    display:inline-block;
+    background:#25D366;
+    color:white;
+    padding:12px 20px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
